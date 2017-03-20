@@ -1,0 +1,191 @@
+body{
+  font-family:"Open Sans";
+}
+
+.text_active{
+  color:#859900; /* text_active */
+}
+.text_focused{
+  color: #dc322f; /* text_focused */
+}
+.text_disabled{
+  color:#93a1a1; /* text_disabled */
+}
+.list_header{
+  color: #859900; /* list_header_foreground */
+  background-color:#002b36; /* list_header_background */
+}
+.list_item_highlighted{ /* selected */
+  color: #002b36; /* list_item_highlighted_foreground */
+  background-color: #93a1a1; /* list_item_highlighted_background */
+}
+.list_item_active{
+  color:#073642; /* list_item_active_foreground */
+  background-color: #eee8d5; /* list_item_active_background */
+}
+.list_item_active_highlighted{ /* ON OVER*/
+  color: #073642; /* list_item_active_highlighted_foreground */
+  background-color:#fdf6e3; /* list_item_active_highlighted_background */
+}
+.button_normal{
+  color: #002b36; /* button_foreground_normal */
+  background-color: #eee8d5; /* button_background_normal */
+  margin-right:5px;
+}
+.button_active{
+  color: #fdf6e3; /* button_foreground_active */
+  background-color: #859900; /* button_background_active */
+  margin-right:5px;
+}
+#controls{
+  padding-top:5px;
+  padding-left:10px;
+}
+#firstline{
+  color:#93a1a1; /* text_disabled */
+}
+#musikbox_main{
+  width:725px;
+  height:410px;
+  background-color: #002b36; /* background */
+  color : #eee8d5; /* foreground */
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 15px;
+  float:left;
+  position:relative;
+}
+#musikbox_settings{
+  margin-left:5px;
+  width:725px;
+  height:410px;
+  background-color: #002b36; /* background */
+  color : #eee8d5; /* foreground */
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 15px;
+  float:left;
+  position:relative;
+}
+#musikbox_overlay{
+  margin-left:5px;
+  float:left;
+  background-color:#586e75; /* overlay_background */
+  color:#fdf6e3 ; /* overlay_foreground */
+  height:130px;
+  width:240px;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 15px;
+}
+#overlay_border{
+  height:110px;
+  width:226px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #073642; /* overlay_border */
+  margin-top:5px;
+  margin-left:5px;
+  padding-left:2px;
+}
+#hotkey{
+  height:40x;
+  width:188px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dc322f; /* overlay_focused_border */
+  margin-top:5px;
+  margin-left:5px;
+  padding-left:2px;
+}
+#folder_tree{
+  height:154px;
+  width:224px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dc322f; /* focused_border */
+  margin-top:5px;
+  margin-left:5px;
+  float:left;
+  padding-left:2px;
+}
+#folder_indexed{
+  height:154px;
+  width:480px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eee8d5; /* foreground */
+  float:right;
+  margin-top:5px;
+  margin-right:5px;
+  padding-left:2px;
+}
+#header{
+  background-color: #cb4b16; /* banner_background */
+  color : #eee8d5; /*banner_foreground*/
+  text-align:center;
+}
+#artists{
+  height:308px;
+  width:172px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dc322f; /* focused_border */
+  margin-top:5px;
+  margin-left:5px;
+  float:left;
+  padding-left:2px;
+}
+#tracks{
+  height:308px;
+  width:530px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eee8d5; /* foreground */
+  float:right;
+  margin-top:5px;
+  margin-right:5px;
+  padding-left:2px;
+}
+.commandbar{
+  color: #fdf6e3; /* shortcuts_foreground */
+  background-color: #586e75; /* shortcuts_background */
+  position: absolute;
+  text-align:center;
+  bottom: 0;
+  width:100%
+}
+.commandbar_focused{
+  color: #fdf6e3; /* shortcuts_foreground_focused */
+  background-color: #dc322f; /* shortcuts_background_focused */
+  position: absolute;
+  text-align:center;
+  bottom: 0;
+  width:100%
+}
+#creator{
+  clear:both;
+}
+#colors{
+  height:400px;
+  width:600px;
+  overflow: auto;
+  float:left;
+}
+.colornames{
+  width:350px;
+  float:left;
+}
+.colorname{
+  height:28px;
+}
+.colorvalues{
+  float:left;
+}
+.colorvalue{
+  height:28px;
+}
+.colorvalue input[type="text"] {
+  width:64px;
+}
+#creator-ui{
+  float:left;
+  margin-left:20px;
+}
